@@ -1,1 +1,57 @@
 # Go_Sample_App
+
+
+Let's learn programming with simple exercise to do
+
+Read two text files. output schools and their classes in order
+
+eg -
+
+Gateway, Kalutara
+
+  Grade 1 , English from 01/01 , 6months
+  
+  Grade 1 Maths from 01/01
+  
+..
+
+.
+
+
+Horizon College, Colombo
+
+...
+
+
+#### schools text file
+
+
+ID|school_name|city|phoneno
+
+100|Horizon College|Colombo|12223333
+
+101|Gateway|Kalutara|11111111
+
+102|Royal|Panadura|555444444
+
+
+#### classes text file
+
+
+school_ID|class|grade|start_date|duration
+
+100|English|1|01/01/2020|6 months
+
+100|English|2|01/01/2020|6 months
+
+100|Maths|1|01/01/2020|10 months
+
+100|Maths|1|01/01/2020|10 months
+
+101|English|5|01/01/2020|9 months
+
+101|English|5|01/01/2020|9 months
+
+101|Maths|6|01/01/2020|10 months
+
+101|Maths|6|01/01/2020|10 months
