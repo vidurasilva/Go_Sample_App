@@ -6,6 +6,21 @@ Let's learn programming with simple exercise to do
 Read two text files. output schools and their classes in order
 
 eg -
+## sample-1
+Let's learn programming with a simple exercise to do
+
+Read two text files schools.txt and classes.txt.
+
+Output schools and their classes in ascending order
+
+This is not a hard to solve problem. 
+
+Will be a test for your good programming practices. 
+
+Eg. coding standard, error handling, testing etc. 
+
+
+### Output -
 
 Gateway, Kalutara
 
