@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 )
@@ -31,9 +32,9 @@ func main() {
 
 	readFile.Close()
 
-	// for _, eachline := range fileTextLines {
-	// 	if eachline == "### classes text file" {
-	// 		fmt.Println(eachline)
-	// 	}
-	// }
+	for _, eachline := range fileTextLines {
+		if eachline == "### classes text file" {
+			fmt.Println(eachline)
+		}
+	}
 }
