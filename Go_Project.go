@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+
 	// /*Reade two file*/
 	// data, err := ioutil.ReadFile("D:/Project/GO/Go_app/Data_File.txt")
 	// /*check errors*/
@@ -32,9 +33,14 @@ func main() {
 
 	readFile.Close()
 
-	for _, eachline := range fileTextLines {
-		if eachline == "### classes text file" {
-			fmt.Println(eachline)
-		}
+	// for _, eachline := range fileTextLines {
+	// 	if eachline == "### classes text file" {
+	// 		fmt.Println(eachline)
+	// 	}
+	// }
+	/* for loop execution */
+
+	for i, x := range fileTextLines {
+		fmt.Println(x, i)
 	}
 }
